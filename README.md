@@ -31,6 +31,14 @@ The algorithm scores terminal states:
 *   **Language:** Python 3.x *(or substitute with C++ / Java depending on your choice)*
 *   **Libraries:** `Tkinter` / `pygame` (for GUI) or standard library (for CLI)
 
+## Author
+
+* Name: Vedha
+* Role: Artificial Intelligence Intern
+* Organization: CodSoft
+* LinkedIn:https:https://www.linkedin.com/in/vedhamithrasri-kadali-72b244378
+
+
 ## Project Structure
 ```text
 ├── main.py             # Main entry point for the game
@@ -38,9 +46,3 @@ The algorithm scores terminal states:
 ├── game_engine.py      # Board state management and win-condition validations
 └── README.md           # Project documentation
 
-## Author
-
-* Name: Vedha
-* Role: Artificial Intelligence Intern
-* Organization: CodSoft
-* LinkedIn:https:https://www.linkedin.com/in/vedhamithrasri-kadali-72b244378
