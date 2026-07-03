@@ -41,6 +41,6 @@ The algorithm scores terminal states:
 ## Author
 
 * Name: Vedha
-* **Role: Artificial Intelligence Intern
+* Role: Artificial Intelligence Intern
 * Organization: CodSoft
 * LinkedIn:https:https://www.linkedin.com/in/vedhamithrasri-kadali-72b244378
