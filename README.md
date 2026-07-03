@@ -37,6 +37,7 @@ The algorithm scores terminal states:
 ├── tic_tac_toe_ai.py   # AI Agent logic containing the Minimax function
 ├── game_engine.py      # Board state management and win-condition validations
 └── README.md           # Project documentation
+
 # Author
 
 * Name: Vedha
