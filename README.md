@@ -38,7 +38,7 @@ The algorithm scores terminal states:
 ├── game_engine.py      # Board state management and win-condition validations
 └── README.md           # Project documentation
 
-# Author
+## Author
 
 * Name: Vedha
 * **Role: Artificial Intelligence Intern
