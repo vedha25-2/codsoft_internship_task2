@@ -108,28 +108,28 @@ def main():
         engine.print_board()
         
         if engine.is_winner(engine.AI):
-            print("🤖 Status: AI completely locked and won the match.")
+            print(" Status: AI completely locked and won the match.")
             break
         elif engine.is_winner(engine.HUMAN):
-            print("🎉 Status: Impossible victory reached!")
+            print(" Status: Impossible victory reached!")
             break
         elif engine.is_draw():
-            print("🤝 Status: Match drawn! Perfect game play from both sides.")
+            print(" Status: Match drawn! Perfect game play from both sides.")
             break
 
         if human_turn:
             try:
                 move = int(input(f"\nYour turn ({engine.HUMAN}). Pick [1-9]: ")) - 1
                 if move not in range(9) or engine.board[move] != engine.EMPTY:
-                    print("⚠️ Position filled or out of bounds! Try again.")
+                    print(" Position filled or out of bounds! Try again.")
                     input("Press Enter to continue...")
                     continue
                 engine.board[move] = engine.HUMAN
                 human_turn = False
             except ValueError:
-                input("⚠️ Type a valid digit. Press Enter...")
+                input(" Type a valid digit. Press Enter...")
         else:
-            print("\n🤖 AI thinking via recursive minimax optimization matrix...")
+            print("\n AI thinking via recursive minimax optimization matrix...")
             ai_choice = ai_agent.select_optimal_move()
             if ai_choice != -1:
                 engine.board[ai_choice] = engine.AI
